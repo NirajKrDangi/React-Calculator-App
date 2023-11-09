@@ -51,11 +51,14 @@ function Calculator() {
         <button onClick={() => handleButtonClick('3')}>3</button>
         <button onClick={() => handleButtonClick('/')}>÷</button>
       </div>
-      <div className="button-row">
-        <button onClick={() => handleButtonClick('0')}>0</button>
-        <button onClick={() => handleButtonClick('.')}>.</button>
-        <button onClick={() => handleButtonClick('0')}>0</button>
-        <button onClick={() => handleButtonClick('=')}>＝</button>
+      <div className="button-row-last">
+        <div className='button-row-1' id="btn-2">
+          <button className='btn-1' onClick={() => handleButtonClick('0')}>0</button>
+          <button className='btn-1' onClick={() => handleButtonClick('.')}>.</button>
+        </div>
+        <div className='button-row-1' id="btn-1">
+          <button className='btn-1' onClick={() => handleButtonClick('=')}>＝</button>
+        </div>
       </div>
     </div>
   );
