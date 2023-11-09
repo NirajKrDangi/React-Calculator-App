@@ -30,6 +30,32 @@
     margin-bottom: 10px
 }
 
+.button-row-last {
+    display: flex;
+}
+
+.button-row-1 {
+    display: flex;
+    flex: 1;
+}
+
+#btn-2 {
+    display: flex;
+    flex: 1;
+}
+
+#btn-2:first-child {
+    margin-right: 8px;
+}
+
+#btn-2 button:first-child{
+    margin-right: 8px;
+}
+
+.btn-1 {
+    flex: 1;
+}
+
 button {
     width: 23%;
     padding: 10px;
